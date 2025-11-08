@@ -1,0 +1,17 @@
+kl_weights: 0.001
+step_size: 10
+gamma: 0.95
+learning_rate: 0.001
+mcr2: 1
+n_epoch: 50
+n_start: 5
+pre_train: 1
+pre_train_epoch: 300
+save_freq: 25
+save_model_epoch: 0
+weight_ls:
+- 1
+- 1
+- 1
+- 0
+pre_train_path: 'pre_train.pth'

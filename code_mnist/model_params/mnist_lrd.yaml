@@ -1,0 +1,25 @@
+decoder_params:
+  context_dim: 1
+  decoder_activation: relu
+  decoder_depth: 3
+  decoder_width:
+  - 2000
+  - 500
+  - 500
+  drop_rate: 0.2
+  recons_activation: sigmoid
+  sensor_dim: 784
+encoder_params:
+  context_dim: 1
+  cov_activation: sigmoid
+  drop_rate: 0.0
+  encoder_activation: relu
+  encoder_depth: 3
+  encoder_width:
+  - 500
+  - 500
+  - 2000
+  mu_activation: sigmoid
+  muzinline: 1
+  sensor_dim: 784
+

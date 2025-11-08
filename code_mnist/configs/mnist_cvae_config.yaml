@@ -1,0 +1,10 @@
+kl_weights: 1e-5
+learning_rate: 0.001
+gamma: 0.95
+step_size: 10
+mcr2: 0
+n_epoch: 500
+n_start: 5
+pre_train: 0
+save_freq: 150
+save_model_epoch: 0
